@@ -166,6 +166,7 @@ if (favorite !== 34) {
     console.log('why not 34 man?')
 }
 */
+/*
 const hasDriverLicense=true;
 const hasGoodVision=true;
 console.log(hasDriverLicense&&hasGoodVision); //false
@@ -185,4 +186,33 @@ if(shouldDrive){
     console.log('sarah should be allowed to drive')
 }else{
     console.log('someone else should drive')
+}
+*/
+/*
+const dolphineAveScore=(96+108+89)/3; //use brackets or grouping to increase higher priority.
+const koalasAveScore=(88+91+110)/3;
+console.log(dolphineAveScore,koalasAveScore);
+if(dolphineAveScore> koalasAveScore){
+    console.log('Dolphines win the trophy')
+}else if(koalasAveScore>dolphineAveScore){
+    console.log("Koalas win the trophy")
+}
+else if(dolphineAveScore===koalasAveScore){
+    console.log('Both win the trophy')
+}
+*/
+
+//Bonus 1
+const dolphineAveScore=(97+112+101)/3;
+const koalasAveScore=(109+95+123)/3;
+console.log(dolphineAveScore,koalasAveScore);
+if(dolphineAveScore> koalasAveScore && dolphineAveScore >=100){
+    console.log('Dolphines win the trophy')
+}else if(koalasAveScore>dolphineAveScore && koalasAveScore >=100){
+    console.log("Koalas win the trophy")
+}
+else if(dolphineAveScore===koalasAveScore &&dolphineAveScore>=100&&koalasAveScore>=100){
+    console.log('Both win the trophy')
+}else{
+    console.log('No one wins the trophy')
 }
