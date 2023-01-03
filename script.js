@@ -203,6 +203,7 @@ else if(dolphineAveScore===koalasAveScore){
 */
 
 //Bonus 1
+/*
 const dolphineAveScore=(97+112+101)/3;
 const koalasAveScore=(109+95+123)/3;
 console.log(dolphineAveScore,koalasAveScore);
@@ -215,4 +216,46 @@ else if(dolphineAveScore===koalasAveScore &&dolphineAveScore>=100&&koalasAveScor
     console.log('Both win the trophy')
 }else{
     console.log('No one wins the trophy')
+}
+*/
+
+//switch statement, alternative to if else.
+const day = 'thursday';
+switch (day) {
+    case 'monday': //day===monday if the output is true
+        console.log('Plan course structure');
+        console.log('go to codding meetup');
+        break; //without break- code continues executing to next structure. after each block break requires to stop.
+    case 'tuesday':
+        console.log('Prepare theory videos');
+        break;
+    case 'wednesday':
+    case 'thursday':
+        console.log('Write code examples');
+        break;
+
+    case 'friday':
+        console.log('Record videos');
+        break;
+    case 'saturday':
+    case 'sunday':
+        console.log('Enjoy the weekend')
+        break;
+    default: //more like end else at the end of if/else statement
+        console.log('not a valid day')
+}
+
+if (day === "monday") {
+    console.log('Plan course structure');
+    console.log('go to codding meetup');
+} else if (day === "tuesday") {
+    console.log('Prepare theory videos');
+} else if (day === 'wednesday' || day === "thursday") {
+    console.log('Write code examples');
+} else if (day === 'friday') {
+    console.log('Record videos');
+} else if (day === 'saturday' || day === 'sunday') {
+    console.log('Enjoy the weekend')
+} else {
+    console.log('not a valid day');
 }
