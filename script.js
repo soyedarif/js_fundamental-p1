@@ -130,6 +130,7 @@ console.log('23' - '10' - 3);//10
 console.log('23' + '10' + 3);//23103
 console.log('23' * '3');
 */
+/*
 console.log(Boolean(0));//false
 console.log(Boolean(undefined));//false
 console.log(Boolean(''));//false
@@ -163,4 +164,25 @@ if (favorite === 34) { //true
 
 if (favorite !== 34) {
     console.log('why not 34 man?')
+}
+*/
+const hasDriverLicense=true;
+const hasGoodVision=true;
+console.log(hasDriverLicense&&hasGoodVision); //false
+console.log(hasDriverLicense||hasGoodVision); //true
+console.log(!hasDriverLicense); //false
+const isTired=false;
+const shouldDrive=hasDriverLicense&&hasGoodVision&& !isTired;
+// if(shouldDrive){
+//     console.log('sarah should be allowed to drive')
+// }else{
+//     console.log('someone else should drive')
+// }
+
+console.log(hasDriverLicense&&hasGoodVision&& isTired); 
+
+if(shouldDrive){
+    console.log('sarah should be allowed to drive')
+}else{
+    console.log('someone else should drive')
 }
