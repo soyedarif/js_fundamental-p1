@@ -220,6 +220,7 @@ else if(dolphineAveScore===koalasAveScore &&dolphineAveScore>=100&&koalasAveScor
 */
 
 //switch statement, alternative to if else.
+/*
 const day = 'thursday';
 switch (day) {
     case 'monday': //day===monday if the output is true
@@ -259,3 +260,17 @@ if (day === "monday") {
 } else {
     console.log('not a valid day');
 }
+*/
+const age=23;
+// age>=18?console.log('I like to smoke'):console.log('Not allowed to smoke');
+const drink= age >=18?'wine':'water';
+
+let drink2;
+if(age>18){
+    drink2='wine';
+}else{
+    drink2='water';
+}
+console.log(drink2)
+
+console.log(`I would like to drink ${age >=18?'wine':'water'}`)
